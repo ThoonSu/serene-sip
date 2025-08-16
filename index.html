@@ -3,14 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="images/icon.jpg" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Serene Sip</title>
-    <style>
-      body {
-        background-color: #f0e2c5;
-        color: #49281a;
-      }
-    </style>
   </head>
   <body>
     <!-- header -->
@@ -20,24 +20,104 @@
         Indulge in the finest coffee experience crafted just for you. Explore
         Our Menu
       </p>
-      <a href="menu">Explore our menu</a>
+      <a href="#our-menu">Explore our menu</a>
     </header>
     <!-- nav section  -->
-    <a>
+    <nav>
       <a href="#header">Home</a>
-      <a href="#menu">Menu</a>
-      <a href="#about_us">Home</a>
+      <a href="#our-menu">Menu</a>
+      <a href="#about">About Us</a>
       <a href="#contact">Contact Us</a>
-    </a>
+    </nav>
     <!-- menu  -->
-    <section id="menu">
+    <section id="our-menu">
       <h2>Our Menu</h2>
-      <h3>Coffee Selections</h3>
-      <h3>Delicious Snacks</h3>
+      <h3>Drink selections</h3>
+      <div class="card">
+        <img src="images/coffee.jpg" alt="" class="card-img-top" />
+        <h4 class="card-title">americano</h4>
+        <p class="card-text">
+          - Strong and black coffee <br />
+          Perfect for bold coffee enthusiast. <br />
+          <button class="btn">Order</button>
+          <span>$2.50</span>
+        </p>
+      </div>
+      <div class="card">
+        <img src="images/coffee.jpg" alt="" class="card-img-top" />
+        <h4 class="card-title">americano</h4>
+        <p class="card-text">
+          - Strong and black coffee <br />
+          Perfect for bold coffee enthusiast. <br />
+          <span>$2.50</span>
+        </p>
+        <button class="btn">Order</button>
+      </div>
+      <div class="card">
+        <img src="images/coffee.jpg" alt="" class="card-img-top" />
+        <h4 class="card-title">americano</h4>
+        <p class="card-text">
+          - Strong and black coffee <br />
+          Perfect for bold coffee enthusiast. <br />
+          <span>$2.50</span>
+        </p>
+        <button class="btn">Order</button>
+      </div>
+      <div class="card">
+        <img src="images/coffee.jpg" alt="" class="card-img-top" />
+        <h4 class="card-title">americano</h4>
+        <p class="card-text">
+          - Strong and black coffee <br />
+          Perfect for bold coffee enthusiast. <br />
+          <span>$2.50</span>
+        </p>
+        <button class="btn">Order</button>
+      </div>
+      <h3>Delicious snacks</h3>
+      <div class="card">
+        <img src="images/crossiant.jpg" alt="" class="card-img-top" />
+        <h4 class="card-title">crossiant</h4>
+        <p>
+          - Light, flaky, and buttery. <br />
+          A timeless delight. <br />
+          <span>$2.50</span>
+        </p>
+        <button class="btn">Order</button>
+      </div>
+      <div class="card">
+        <img src="images/crossiant.jpg" alt="" class="card-img-top" />
+        <h4 class="card-title">crossiant</h4>
+        <p>
+          - Light, flaky, and buttery. <br />
+          A timeless delight. <br />
+          <span>$2.50</span>
+        </p>
+        <button class="btn">Order</button>
+      </div>
+      <div class="card">
+        <img src="images/crossiant.jpg" alt="" class="card-img-top" />
+        <h4 class="card-title">crossiant</h4>
+        <p>
+          - Light, flaky, and buttery. <br />
+          A timeless delight. <br />
+          <span>$2.50</span>
+        </p>
+        <button class="btn">Order</button>
+      </div>
+      <div class="card">
+        <img src="images/crossiant.jpg" alt="" class="card-img-top" />
+        <h4 class="card-title">crossiant</h4>
+        <p>
+          - Light, flaky, and buttery. <br />
+          A timeless delight. <br />
+          <span>$2.50</span>
+        </p>
+        <button class="btn">Order</button>
+      </div>
     </section>
     <!-- about us -->
-    <h2>About Us</h2>
-    <section id="about_us">
+    <section id="about">
+      <h2>About Us</h2>
       <p>Welcome to Serene Sips Café, where every cup tells a story!</p>
       <p>
         Founded in 2020, our coffee journey began with a passion for creating a
@@ -72,27 +152,27 @@
       </p>
       <form action="">
         <div>
-          <label for="">Your Name</label>
-          <input type="text" />
+          <label for="" class="form-label">Your Name</label>
+          <input type="text" class="form-control" />
         </div>
       </form>
       <form action="">
         <div>
-          <label for="">Your Email</label>
-          <input type="text" />
+          <label for="" class="form-label">Your Email</label>
+          <input type="text" class="form-control" />
         </div>
       </form>
       <form action="">
         <div>
-          <label for="">Your Message</label>
+          <label for="" class="form-label">Your Message</label>
           <textarea></textarea>
         </div>
       </form>
-      <input type="submit" value="Send Message" />
+      <input type="submit" value="Send Message" class="btn-send" />
     </section>
 
     <!-- footer section  -->
-    <footer>
+    <footer id="footer">
       <p>Copyright &copy; 2024. Serene Sips Cafe. All Rights Reserved.</p>
     </footer>
   </body>

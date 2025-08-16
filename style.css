@@ -1,0 +1,177 @@
+/* resetting rule */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #f0e2c5;
+  color: #49281a;
+}
+
+/* header section */
+header {
+  border: 2px solid #000;
+  text-align: center;
+  padding: 50px 0;
+}
+
+header h1 {
+  font-family: "Playfair Display SC", serif;
+  color: #49281a;
+  margin-bottom: 20px;
+  font-size: 3rem;
+}
+
+header a {
+  background-color: #49281a;
+  color: white;
+  margin: 10px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 9px;
+  padding: 20px;
+}
+
+/* nav section  */
+nav {
+  /* border: 2px solid #000; */
+  text-align: center;
+  padding: 20px 0;
+}
+nav a {
+  display: inline-block;
+  width: 150px;
+  height: 40px;
+  line-height: 40px;
+  font-family: "Lato", sans-serif;
+  background-color: #49281a;
+  color: #f0e2c5;
+  /* padding: 10px 20px; */
+  margin-right: 20px;
+  text-decoration: none;
+  border-radius: 9px;
+}
+
+/* our menu section  */
+#our-menu,
+#about,
+#contact,
+#footer {
+  /* border: 2px solid #000; */
+  width: 90%;
+  margin: 50px auto;
+}
+#our-menu h2,
+#about h2 {
+  font-family: "Playfair Display", serif;
+  color: #49281a;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  padding: 10px 0;
+}
+.menu {
+  /* border: 1px solid #000; */
+  font-family: "Lato", sans-serif;
+  color: #49281a;
+  text-align: center;
+}
+.menu h3 {
+  margin-bottom: 20px;
+  font-family: "Lato", sans-serif;
+  color: #49281a;
+  font-size: 2rem;
+}
+.card {
+  border: 1px solid #000;
+  background-color: wheat;
+  width: 250px;
+  padding: 15px;
+  border-radius: 9px;
+  text-align: center;
+  display: inline-block;
+}
+.card-img-top {
+  max-width: 100%;
+  border-radius: 9px 9px 0 0;
+}
+.card-title {
+  padding: 10px 0;
+}
+.card-text {
+  line-height: 1.5rem;
+}
+.card-body {
+  text-align: center;
+}
+.card-text {
+  line-height: 1.5em;
+}
+.price {
+  font-weight: bold;
+  font-style: italic;
+}
+.btn {
+  width: 100%;
+  height: 40px;
+  background-color: #000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+/* about section */
+#about p,
+#contact p {
+  text-align: justify;
+  line-height: 1.5;
+  font-family: "Lato", sans-serif;
+  color: #49281a;
+}
+
+/* contact section */
+form {
+  /* border: 1px solid #000; */
+  width: 90%;
+  margin: 20px auto;
+  font-family: "Lato", sans-serif;
+  color: #49281a;
+}
+form div {
+  /* border: 1px solid #000; */
+  padding: 20px 0;
+}
+.form-label {
+  background-color: #f0e2c5;
+  width: 250px;
+  display: inline-block;
+}
+.form-control {
+  width: 400px;
+  background-color: #f0e2c5;
+  border: none;
+  outline: none;
+  border-bottom: 1px dotted #49281a;
+}
+.btn-send {
+  width: 150px;
+  height: 50px;
+  background-color: #49281a;
+  color: #f0e2c5;
+  border-radius: 9px;
+  border: none;
+  margin-left: 250px;
+  cursor: pointer;
+}
+
+footer p {
+  font-family: "Lato", sans-serif;
+  color: #49281a;
+  text-align: center;
+  font-size: 0.9rem;
+}
