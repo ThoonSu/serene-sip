@@ -11,6 +11,9 @@ body {
   background-color: #f0e2c5;
   color: #49281a;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 /* header section */
 header {
@@ -20,6 +23,7 @@ header {
 }
 
 header h1 {
+  font-family: "Playfair Display", serif;
   font-family: "Playfair Display SC", serif;
   color: #49281a;
   margin-bottom: 20px;
@@ -61,7 +65,15 @@ nav a {
 #our-menu,
 #about,
 #contact,
-#footer {
+footer {
+  /* border: 2px solid #000; */
+  width: 90%;
+  margin: 50px auto;
+  padding: 20px;
+}
+#our-menu h2,
+#about h2,
+#contact h2 #footer {
   /* border: 2px solid #000; */
   width: 90%;
   margin: 50px auto;
@@ -72,6 +84,18 @@ nav a {
   color: #49281a;
   margin-bottom: 20px;
   font-size: 2rem;
+  text-align: left;
+  padding: 10px 0;
+}
+.our-menu {
+  /* border: 1px solid #000; */
+  color: #49281a;
+}
+#our-menu h3 {
+  font-family: "Lato", sans-serif;
+  margin-bottom: 20px;
+  color: #49281a;
+  text-align: left;
   padding: 10px 0;
 }
 .menu {
@@ -124,8 +148,7 @@ nav a {
   border-radius: 5px;
   margin-top: 10px;
 }
-
-/* about section */
+/* about */
 #about p,
 #contact p {
   text-align: justify;
@@ -133,7 +156,6 @@ nav a {
   font-family: "Lato", sans-serif;
   color: #49281a;
 }
-
 /* contact section */
 form {
   /* border: 1px solid #000; */
@@ -152,11 +174,11 @@ form div {
   display: inline-block;
 }
 .form-control {
-  width: 400px;
+  width: 300px;
   background-color: #f0e2c5;
   border: none;
   outline: none;
-  border-bottom: 1px dotted #49281a;
+  border-bottom: 1px solid #49281a;
 }
 .btn-send {
   width: 150px;
@@ -168,7 +190,7 @@ form div {
   margin-left: 250px;
   cursor: pointer;
 }
-
+/* footer */
 footer p {
   font-family: "Lato", sans-serif;
   color: #49281a;
