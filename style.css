@@ -76,16 +76,13 @@ footer {
 #contact h2 #footer {
   /* border: 2px solid #000; */
   width: 90%;
-  margin: 50px auto;
 }
-#our-menu h2,
-#about h2 {
+#our-menu h2 #about h2 {
   font-family: "Playfair Display", serif;
   color: #49281a;
   margin-bottom: 20px;
   font-size: 2rem;
   text-align: left;
-  padding: 10px 0;
 }
 .our-menu {
   /* border: 1px solid #000; */
