@@ -4,9 +4,6 @@
   margin: 0;
   box-sizing: border-box;
 }
-html {
-  scroll-behavior: smooth;
-}
 body {
   background-color: #f0e2c5;
   color: #49281a;
@@ -16,21 +13,25 @@ html {
 }
 
 /* header section */
+
 header {
   border: 2px solid #000;
   text-align: center;
   padding: 50px 0;
 }
-
 header h1 {
   font-family: "Playfair Display", serif;
-  font-family: "Playfair Display SC", serif;
-  color: #49281a;
+  color: white;
   margin-bottom: 20px;
   font-size: 3rem;
 }
+header p {
+  font-family: "Lato", sans-serif;
+  color: white;
+}
 
 header a {
+  font-family: "Lato", sans-serif;
   background-color: #49281a;
   color: white;
   margin: 10px;
@@ -39,6 +40,10 @@ header a {
   text-decoration: none;
   border-radius: 9px;
   padding: 20px;
+}
+#container {
+  background-image: url(images/background.jpg);
+  background-size: cover;
 }
 
 /* nav section  */
