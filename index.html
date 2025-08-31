@@ -3,14 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/icon.jpg" type="image/x-icon" />
+    <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
-      rel="stylesheet"
     />
+
+    <!-- animate.css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!-- external css -->
     <link rel="stylesheet" href="style.css" />
-    <link rel="shortcut icon" href="images/icon.jpg" type="image/x-icon" />
+
     <title>Serene Sip</title>
   </head>
   <body>
@@ -18,13 +27,12 @@
     <div id="container">
       <header id="header">
         <h1>Welcome to Serene Sip</h1>
-        <p>
-          Indulge in the finest coffee experience crafted just for you. Explore
-          Our Menu
-        </p>
-        <a href="#our-menu" class="animate__animated animate__backInDown"
-          >Explore our menu</a
-        >
+        <p>Indulge in the finest coffee experience crafted just for you.</p>
+        <div class="animate__animated animate__backInDown">
+          <a href="#our-menu" class="animate__animated animate__backInDown"
+            >Explore our menu</a
+          >
+        </div>
       </header>
     </div>
     <!-- nav section  -->
@@ -38,94 +46,106 @@
     <section id="our-menu">
       <h2>Our Menu</h2>
       <h3>Drink selections</h3>
-      <div class="card">
-        <img src="images/coffee.jpg" alt="" class="card-img-top" />
-        <div class="class-body">
-          <h4 class="card-title">americano</h4>
-          <p class="card-text">
-            - Strong and black coffee <br />
-            Perfect for bold coffee enthusiast. <br />
-            <span>$2.50</span>
+      <div class="card-container">
+        <div class="card">
+          <img src="images/coffee.jpg" alt="" class="card-img-top" />
+          <div class="card-body">
+            <h4 class="card-title">americano</h4>
+            <p class="card-text">
+              - Strong and black coffee <br />
+              Perfect for bold coffee enthusiast. <br />
+              <span>$2.50</span>
+              <button class="btn">Order</button>
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/green te.jpg" alt="" class="card-img-top" />
+          <div class="card-body">
+            <h4 class="card-title">green tea</h4>
+            <p class="card-text">
+              -tasty and sweet green tea<br />
+              -for people who want to chill <br />
+              <span>$2.50</span>
+            </p>
             <button class="btn">Order</button>
-          </p>
+          </div>
         </div>
-      </div>
-      <div class="card">
-        <img src="images/green te.jpg" alt="" class="card-img-top" />
-        <div class="card-body">
-          <h4 class="card-title">green tea</h4>
-          <p class="card-text">
-            -tasty and sweet green tea<br />
-            for people who want to chill <br />
-            <span>$2.50</span>
+        <div class="card">
+          <img src="images/milky.jpg" alt="" class="card-img-top" />
+          <div class="card-body">
+            <h4 class="card-title">milkshake</h4>
+            <p class="card-text">
+              - Creamy and dreamy milkshake <br />
+              for optimism and a good day <br />
+              <span>$2.50</span>
+            </p>
             <button class="btn">Order</button>
-          </p>
+          </div>
         </div>
-      </div>
-      <div class="card">
-        <img src="images/milky.jpg" alt="" class="card-img-top" />
-        <div class="card-body">
-          <h4 class="card-title">milkshake</h4>
-          <p class="card-text">
-            - Creamy and dreamy milkshake <br />
-            for optimism and a good day <br />
-            <span>$2.50</span>
-          </p>
-          <button class="btn">Order</button>
-        </div>
-      </div>
-      <div class="card">
-        <img src="images/thai tea.jpg" alt="" class="card-img-top" />
-        <div class="card-body">
-          <h4 class="card-title">thai tea</h4>
-          <p class="card-text">
-            - Sweet, creamy, and spiced <br />
-            for those with a sweet tooth. <br />
-            <span>$2.50</span>
-          </p>
-          <button class="btn">Order</button>
+        <div class="card">
+          <img src="images/thai tea.jpg" alt="" class="card-img-top" />
+          <div class="card-body">
+            <h4 class="card-title">thai tea</h4>
+            <p class="card-text">
+              - Sweet, creamy, and spiced <br />
+              for those with a sweet tooth. <br />
+              <span>$2.50</span>
+            </p>
+            <button class="btn">Order</button>
+          </div>
         </div>
       </div>
       <h3>Delicious snacks</h3>
-      <div class="card">
-        <img src="images/marcaroons.jpg" alt="" class="card-img-top" />
-        <h4 class="card-title">macaroons</h4>
-        <p class="card-text">
-          -Delicate airy and delicious <br />
-          For the french lovers<br />
-          <span>$2.50</span>
-        </p>
-        <button class="btn">Order</button>
-      </div>
-      <div class="card">
-        <img src="images/crossiant.jpg" alt="" class="card-img-top" />
-        <h4 class="card-title">crossiant</h4>
-        <p class="card-text">
-          - Light, flaky, and buttery. <br />
-          A timeless delight. <br />
-          <span>$2.50</span>
-        </p>
-        <button class="btn">Order</button>
-      </div>
-      <div class="card">
-        <img src="images/eclairs.jpg" alt="" class="card-img-top" />
-        <h4 class="card-title">eclairs</h4>
-        <p class="card-text">
-          -filled with rich pastry cream <br />
-          A timeless delight. <br />
-          <span>$2.50</span>
-          <button class="btn">Order</button>
-        </p>
-      </div>
-      <div class="card">
-        <img src="images/cupcakes.jpg" alt="" class="card-img-top" />
-        <h4 class="card-title">cupcakes</h4>
-        <p class="card-text">
-          A delightful, miniature cake. <br />
-          perfectly sized for one<br />
-          <span>$2.50</span>
-        </p>
-        <button class="btn">Order</button>
+      <div class="card-container">
+        <div class="card">
+          <div class="card-body">
+            <img src="images/marcaroons.jpg" alt="" class="card-img-top" />
+            <h4 class="card-title">macaroons</h4>
+            <p class="card-text">
+              -Delicate airy and delicious <br />
+              For the french lovers<br />
+              <span>$2.50</span>
+            </p>
+            <button class="btn">Order</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <img src="images/crossiant.jpg" alt="" class="card-img-top" />
+            <h4 class="card-title">crossiant</h4>
+            <p class="card-text">
+              - Light, flaky, and buttery. <br />
+              A timeless delight. <br />
+              <span>$2.50</span>
+            </p>
+            <button class="btn">Order</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <img src="images/eclairs.jpg" alt="" class="card-img-top" />
+            <h4 class="card-title">eclairs</h4>
+            <p class="card-text">
+              -filled with rich pastry cream <br />
+              A timeless delight. <br />
+              <span>$2.50</span>
+              <button class="btn">Order</button>
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <img src="images/cupcakes.jpg" alt="" class="card-img-top" />
+            <h4 class="card-title">cupcakes</h4>
+            <p class="card-text">
+              A delightful, miniature cake. <br />
+              perfectly sized for one<br />
+              <span>$2.50</span>
+            </p>
+            <button class="btn">Order</button>
+          </div>
+        </div>
       </div>
     </section>
     <!-- about us -->
